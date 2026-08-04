@@ -1,0 +1,22 @@
+name: AnywhereWeather
+version: 1.0.0
+main: com.kyle.anywhereweather.AnywhereWeather
+api-version: '26.2'
+author: Kyle
+description: Lets Channeling trigger lightning regardless of weather, and lets Riptide launch you anywhere (not just in water/rain).
+
+commands:
+  anywhereweather:
+    description: Reload/info command for AnywhereWeather
+    aliases: [aw]
+    permission: anywhereweather.admin
+
+permissions:
+  anywhereweather.admin:
+    default: op
+  anywhereweather.channeling:
+    description: Allows Channeling to strike lightning in any weather
+    default: true
+  anywhereweather.riptide:
+    description: Allows Riptide to launch the player anywhere
+    default: true
